@@ -1,0 +1,67 @@
+/* Estilo para el div "#bienvenida" */
+#bienvenida {
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 20px;
+  text-align: center;
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Estilo para el título del div "#bienvenida" */
+#bienvenida > label {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Estilo para los campos de entrada de texto del div "#bienvenida" */
+#nomUsuario,
+#conUsuario {
+  width: 100%;
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Estilo para el botón del div "#bienvenida" */
+#bienvenida > button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Cambia el color del botón del div "#bienvenida" al pasar el mouse por encima */
+#bienvenida > button:hover {
+  background-color: #45a049;
+}
+
+#restoAplicacion {
+  display: none;
+}
+
+/* Alinea el container "#niveles" a la derecha */
+#niveles {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 50px;
+  margin-right: 50px;
+}
+
+/* Centra el botón "#empezarJuego" y el div "#tablero" */
+#empezarJuego,
+#tablero {
+  margin: 0 auto;
+  display: block;
+}
+
+/* Centra el contenido de la tabla en el div "#tablero" */
+#tablero {
+  text-align: center;
+}
+
